@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+{%block content%}
+<div class="container">
+<h3>Hi {{user.username}}, Welcome to your dashboard</h3>
+    <p><a href="{%url 'logout'%}">logout</a></p>
+</div>
+{%endblock%}
